@@ -19,6 +19,7 @@
     justify-items: center;
     align-items: center;
   }
+ 
 
 body{
  width: 100%; 
@@ -93,10 +94,9 @@ aside {
 section{
    height: 100%; 
    grid-area: section;
-   background-image: url(../coderhouse/joyeria.jpg);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
+   align-items: center;
+   text-align: center;
+  
 
 }
 
