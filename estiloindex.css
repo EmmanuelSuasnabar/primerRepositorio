@@ -90,9 +90,12 @@ aside {
 
 
 }
+div { width: 100%;
+      height: 100%;}
 
 section{
    height: 100%; 
+   width: 100%;
    grid-area: section;
    align-items: center;
    text-align: center;
