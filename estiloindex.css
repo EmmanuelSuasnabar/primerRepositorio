@@ -1,5 +1,5 @@
 #gridContainerIndex{  display: grid;
-    height: 2000px;
+    height: 2500px;
     width: 100%;
     grid-template-rows: 30% 10% 30% 20% 10%;
     grid-template-columns: 25% 50% 25%;
@@ -13,6 +13,7 @@
     font-size: 50px;
  
 }
+
   #gridTwo{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -41,7 +42,7 @@ header{
     font-size: 70px; 
     text-align: center; 
     
-    background-image: url(./manitaLinda.jpg); 
+    background-image: url(./img/manitaLinda.jpg); 
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover;
@@ -55,7 +56,7 @@ h1{
  animation-name:multiColor;
  animation-duration: 2s;
  animation-iteration-count: infinite;
- padding-top: 200px;
+ padding-top: 250px;
 
 }
 
@@ -83,7 +84,7 @@ nav{
 aside { 
     grid-area: aside;
     height: 100%;
-    background-image: url(./gps.jpg);
+    background-image: url(./img/gps.jpg);
     background-position: center;
     background-size: cover;
   
@@ -105,10 +106,13 @@ section{
 }
 
 footer{
+    height: 100%;
+    width: 100%;
    grid-area: footer;
    text-align: center;
    height: 70px;
 }
+
 @media only screen and (min-width:768px) and (max-width: 991px){  
 
 #gridContainerIndex{  
