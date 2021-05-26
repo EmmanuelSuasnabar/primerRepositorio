@@ -1,0 +1,97 @@
+#gridContainerIndex {
+  display: grid;
+  height: 2500px;
+  width: 100%;
+  grid-template-rows: 30% 10% 50% 10%;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-areas: "header header header" "nav nav nav" "aside section section" "footer footer footer";
+  background-color: white;
+  align-items: center;
+  margin: 0;
+  font-size: 50px; }
+
+#gridTwo {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  justify-items: center;
+  align-items: center; }
+
+header {
+  grid-area: header;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  background-image: url(../img/mujer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+h1 {
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+  font-size: 120px;
+  padding-top: 250px;
+  color: #56b4eb; }
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #9262b9;
+  padding-right: 500px; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+a {
+  color: beige;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px; }
+
+nav {
+  grid-area: nav;
+  background-image: linear-gradient(293.5deg, #b595d0 3.2%, #fb94cf 9.9%, #b595d0 22.9%, #fb94cf 36.4%, #b595d0 50.1%, #fb94cf 61.1%, #b595d0 71.2%, #fb94cf 84.2%, #b595d0 92.2%);
+  height: 100%;
+  align-items: center;
+  padding-top: 80px; }
+
+aside {
+  display: flex;
+  grid-area: aside;
+  height: 100%;
+  align-items: center;
+  justify-content: center; }
+  aside .boots {
+    display: flex;
+    text-align: center;
+    font-size: 25px; }
+
+section {
+  grid-area: section; }
+
+footer {
+  height: 100%;
+  grid-area: footer;
+  text-align: center;
+  padding-top: 80px;
+  background-image: linear-gradient(293.5deg, #b595d0 3.2%, #fb94cf 9.9%, #b595d0 22.9%, #fb94cf 36.4%, #b595d0 50.1%, #fb94cf 61.1%, #b595d0 71.2%, #fb94cf 84.2%, #b595d0 92.2%); }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #gridContainerIndex {
+    grid-template-rows: 30% 20% 40% 10%;
+    grid-template-columns: 50% 50%; }
+  #gridTwo {
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 100%; } }
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  #gridContainerIndex {
+    grid-template-rows: 15% 25% 50% 10%;
+    grid-template-columns: 100%; }
+  #gridTwo {
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 100%; } }
