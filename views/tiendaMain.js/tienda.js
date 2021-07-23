@@ -11,27 +11,51 @@
 //userPass();
 
 
-const listaDeJoyas = [
-    {
-      nombre: "Cadenas",
-      cantidad: 80,
-      precio: 100 ,
-    },
-    {
-      nombre: "Pulseras",
-      cantidad: 110,
-      precio: 80,
-    },
-    {
-      nombre: "Anillos",
-      cantidad: 100,
-      precio: 50,
-    },
-  ];
+//const listaDeJoyas = [
+  
+//{
+      //nombre: "Cadenas",
+      
+      //cantidad: 80,
+      //precio: 100 ,
+    //},
+  //  {
+      //nombre: "Pulseras",
+      //cantidad: 110,
+      //precio: 80,
+    //},
+   // {
+     // nombre: "Anillos",
+     // cantidad: 100,
+      //precio: 50,
+    //},
+  //];
  
-  function agregarSelect() {
-    var select = '<select><option value="Cadenas">Cadenas</option><option value="Pulseras">Pulseras</option><option value="Anillos">Anillos</option></select>';
-    document.getElementById('mySelect').innerHTML = select;
+  //function agregarSelect() {
+   // var select = '<select><option value="Cadenas">Cadenas</option><option value="Pulseras">Pulseras</option><option value="Anillos">Anillos</option></select>';
+   // document.getElementById('mySelect').innerHTML = select;
 
 
-  }
+ // }
+
+//Jquery Onload
+$(document).ready (function (){
+
+  alert("la pagina se cargo JQuery");
+
+});
+
+$(".titulo2").click((e) => {
+  alert("Lee los pasos para comprar");
+});
+
+$("button#Cadenas").click((e) => {
+
+  alert("Seleccionaste Cadenas")
+  console.log("el usuario compro cadenas")
+});
+
+//Vanilla Script Onload  es la mejor opcion
+//window.onload(alert("la pagina se cargo Vanilla Script"));
+
+//inicializarJQUERY();
