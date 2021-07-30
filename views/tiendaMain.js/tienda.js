@@ -38,23 +38,22 @@
 
 
   }
-
 //Jquery Onload
-//$(document).ready (function (){
+$(document).ready (function (){
 
-  //alert("la pagina se cargo JQuery");
+  alert("la pagina se cargo JQuery");
 
-//});
+});
 
-//$(".titulo2").click((e) => {
-  //alert("Lee los pasos para comprar");
-//});
+$(".titulo2").click((e) => {
+  alert("Lee los pasos para comprar");
+});
 
-//$("button#Cadenas").click((e) => {
+$("button#Cadenas").click((e) => {
 
-  //alert("Seleccionaste Cadenas")
-  //console.log("el usuario compro cadenas")
-//});
+  alert("Seleccionaste Cadenas")
+  console.log("el usuario compro cadenas")
+});
 
 //Vanilla Script Onload  es la mejor opcion
 //window.onload(alert("la pagina se cargo Vanilla Script"));
