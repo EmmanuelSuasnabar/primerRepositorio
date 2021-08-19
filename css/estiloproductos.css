@@ -198,3 +198,35 @@ footer{
    }
    }
 
+.table__productos{
+   display: flex;
+   height: 30px;
+   width: 100%;
+   font-size: 10px;
+
+}
+.table__productos > img{
+
+width: 9rem;
+height:9rem;
+border-radius: 10px;
+margin-right: 20px;
+
+
+}
+.table__stock {
+   width: 40px;
+   border: none;
+   outline: 0;
+   font-size: 16px;
+   font-weight: 700;
+   margin-right: 30px;
+   margin-bottom: 20px;
+
+
+}
+.card {
+   height: 30rem;
+
+
+}

@@ -1,59 +1,90 @@
-//function userPass (){
+//fetch ('./tiendaMains.js/joyas.json').then((respuesta) => console.log(respuesta.text()));
+//const Clickbutton = document.querySelectorAll('.button')
+//let carrito = []
+//clickButton.forEach(btn => {
+ // btn.addEventListener('click',addToCarrito)
+//})
 
-  //  var usuario = prompt ('ingresa el usuario:')
-   // var contraseña = parseInt(prompt ('ingresa la contraseña:'))
-   
-   // if(usuario == 'Emmanuel' && contraseña == '12345'){
-  // alert ('Emmanuel bienvenido')
-  // console.log('el usuario emmanuel ingreso a la tienda')
+//function addToCarrito(e){
+// const button = e.target
+// const item = button.closest('.card')
+// const itemTitle = item.querySelector('.card-title').textcontent;
+/// const itemPrecio = item.querySelector('.precio').textcontent;
+ //const itemImg = item.querySelector('.card=img-top').src;
+
+
+ //const newItem = {
+  // title: itemTitle,
+  // precio: itemPrecio,
+ //  img: itemImg,
+ ////  stock: 1
+
 //}
-//}
-//userPass();
-
-
-//const listaDeJoyas = [
-  
-//{
-      //nombre: "Cadenas",
-      
-      //cantidad: 80,
-      //precio: 100 ,
-    //},
-  //  {
-      //nombre: "Pulseras",
-      //cantidad: 110,
-      //precio: 80,
-    //},
-   // {
-     // nombre: "Anillos",
-     // cantidad: 100,
-      //precio: 50,
-    //},
-  //];
  
-  function agregarSelect() {
+// addItemCarrito(newItem) 
 
-    var select = '<select><option value="Cadenas">Cadenas</option><option value="Pulseras">Pulseras</option><option value="Anillos">Anillos</option></select>';
-    document.getElementById('mySelect').innerHTML = select;
+//}
+
+//function addItemCarrito(newItem){
+  
+ // carrito.push(newItem)
+ // ejecutarCarrito()
+
+//}
+
+//function ejecutarCarrito(){
+ // console.log(carrito)
+//}
+//cargarProductos();
 
 
-  }
-//Jquery Onload
-$(document).ready (function (){
+//$(document).ready(function() {
 
-  alert("la pagina se cargo JQuery");
 
-});
+ // console.log('el DOM esta listo')
 
-$(".titulo2").click((e) => {
-  alert("Lee los pasos para comprar");
-});
 
-$("button#Cadenas").click((e) => {
+//});
 
-  alert("Seleccionaste Cadenas")
-  console.log("el usuario compro cadenas")
-});
+//let divTienda = document.createElement("div");
+//divTienda.id = divTienda;
+//document.body.appendChild(divTienda);
+
+
+//function userPass () {  
+  //var usuario = prompt ('ingresa el usuario:');
+  //var contraseña = parseInt(prompt ('ingresa la contraseña:'));
+  
+
+  //if(usuario == 'Emmanuel' && contraseña == '12345'){
+  //alert ("Usted tiene acceso vip")
+  //console.log("bienvenido Emmanuel");
+
+ //}
+ //}
+
+ //userPass();
+
+//$(".titulo2").click((e) => {
+  //alert("Lee los pasos para comprar");
+//});
+
+//$("button#Cadenas").click((e) => {
+
+  //alert("Seleccionaste Cadenas");
+  //console.log("el usuario compro cadenas");
+//});
+
+
+  //function agregarSelect(){
+
+    //var select = '<select><option value="Cadenas">Cadenas</option><option value="Pulseras">Pulseras</option><option value="Anillos">Anillos</option></select>';
+    //document.getElementById('mySelect').innerHTML = select;
+  
+  
+ // }
+  
+
 
 //Vanilla Script Onload  es la mejor opcion
 //window.onload(alert("la pagina se cargo Vanilla Script"));
@@ -61,6 +92,6 @@ $("button#Cadenas").click((e) => {
 //inicializarJQUERY();
 
 
-$('button').hide('slow').slideDown('Slow'); //concatenado
-$('button').hide('slow').fadeIn('slow', function(){alert('Delirium Joyas')});
-$('button').css("color","Blue");
+//$('button').hide('slow').slideDown('Slow'); //concatenado
+//$('button').hide('slow').fadeIn('slow');
+//$('button').css("color","Blue");
