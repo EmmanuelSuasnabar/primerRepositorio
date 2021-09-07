@@ -1,0 +1,31 @@
+
+
+
+[
+
+    {
+      "joyasid":0,
+      "producto": "Anillos",
+      "stock": 100,
+      "precio": 900,
+      "img": "anillo.jpg"
+      
+      
+    },
+    {
+      "joyasid":1,
+      "producto": "Aros",
+      "stock": 90,
+      "precio": 800,
+      "img": "arosFlores.jpg"
+    },
+  {
+        "joyasid":2,  
+        "producto": "Cadenas",
+        "stock": 80,
+        "precio": 1000,
+        "img": "cadenasLook.jpg"
+
+      }
+    
+    ]

@@ -1,0 +1,27 @@
+
+
+[
+
+    {
+      "looksid":0,
+      "producto": "Perlas",
+      "descripcion":"outfits que combinan con nuestras perlas",
+      "img": "collaresPerlas.jpg"
+      
+      
+    },
+    {
+      "looksid":1,
+      "producto": "Camisas",
+      "descripcion":"Collares unicos de oro para resaltar tus camisas",
+      "img": "joyasCamisas.jpg"
+    },
+  {
+        "looksid":2,  
+        "producto": "Saco",
+        "descripcion":"Se tu misma con tus anillos y cadenas",
+        "img": "joyasSaco.jpg"
+
+      }
+    
+    ]
