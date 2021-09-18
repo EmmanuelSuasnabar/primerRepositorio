@@ -1,4 +1,4 @@
-.dr-cart__product {
+/* .dr-cart__product {
     display: grid;
     grid-template-columns: 80px 1fr auto;
     grid-gap: var(--space-xs);
@@ -58,4 +58,4 @@
   .dr-cart__remove-btn:focus {
     outline: 2px solid hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
     outline-offset: 2px;
-  }
+  } */

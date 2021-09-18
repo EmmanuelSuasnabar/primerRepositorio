@@ -226,13 +226,13 @@ margin-right: 20px;
 
 
 }
-.card {
+ .card {
    height: 30rem;
 
 
 }
 
-.switch {
+/* .switch {
 background: #343D5B;
 border-radius:1000px;
 border: none;
@@ -241,12 +241,12 @@ cursor: pointer;
 display: flex;
 outline: none;
 
-}
+} */ 
 
-span .switch {
+/*span .switch {
 
    
-}
+}*/
 
 /*Carrito*/
 
@@ -275,7 +275,7 @@ span .switch {
    } */
    
    
-   .mode {
+   /* .mode {
        float:center;
    }
    .change {
@@ -290,4 +290,4 @@ span .switch {
    .dark{
        background-color: #222;
        color: #e6e6e6;
-   }
+   } */
