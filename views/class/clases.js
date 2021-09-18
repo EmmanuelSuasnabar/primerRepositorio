@@ -29,6 +29,39 @@ class Contacto {
 
 };
 
+class Pago {
+
+  constructor (nombre,apellido,tarjeta){
+
+    this.nombre = nombre
+    this.apellido = apellido
+    this.tarjeta = tarjeta
+
+
+  }
+
+};
+
+
+
+//class UsuarioProducto {
+
+//  constructor (){
+
+//   this.joyas = [];
+    
+//  }
+
+
+ // setProducto(joyaid) { 
+ // let productoProductoLista = JSON.parse(localStorage.getItem('joyas'))
+ // let productoActual = productoProductoLista.find ((joya) => joya.id === id);  
+ // productoActual.stock -=1; 
+//this.joyas.push(productoProductoLista)
+
+
+
+////  let productoProductoLista = JSON.parse(localStorage.getItem('joyas'));}
 
 //let contactoArray = [];
 /*

@@ -15,8 +15,18 @@
         </div>
         `
       }
-    })
+    });
   
+
+    $( ".change" ).on("click", function() {
+      if( $( "section" ).hasClass( "dark" )) {
+          $( "section" ).removeClass( "dark" );
+          $( ".change" ).text( "OFF" );
+      } else {
+          $( "section" ).addClass( "dark" );
+          $( ".change" ).text( "ON" );
+      }
+  });
  
 
 //  fetch('./json/looks.json')

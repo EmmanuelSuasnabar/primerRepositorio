@@ -1,6 +1,7 @@
+let contactoArray = []
 
  $(() => {
-    $("#idForm").submit(function(e){
+    $("#formContact").submit(function(e){
         e.preventDefault();
         let formValues = new FormData (e.target);
         let nuevoContacto = new Contacto (formValues.get("nombre"),formValues.get("apellido"),formValues.get("email"),formValues.get("infosi"),formValues.get("infono"),formValues.get("escrituraCampo"));
@@ -18,32 +19,29 @@
     
   })
 
-  $("#idForm").validate({
+  $("#formContact").validate({
    rules: {
-   'FName': {
+   'nombre': {
    required: true,
    minlength: 2
    },
-   'LName': {
+   'apellido': {
    required: true,
    minlength: 2
    },
-   'Email':{
+   'email':{
    required: true,
    email:true,
    },
-   'Pwd':{
-   required: true,
-   },
    },
    messages: {
-   'FName': "Please enter a valid First Name.",
-   'LName': "Please enter a valid Last Name.",
-   'Email': "Please enter Email in proper format.",
-   'Pwd': "Please enter a Password",
+   'nombre': "Por favor ingrese un nombre valido.",
+   'apellido': "Por favor ingrese un apellido valido.",
+   'email': "Por favor ingrese un email valido."
    }
    });
    
+  
 
  // $("#btnEnviar").click(()=> { 
  //  $("#idForm").slideToggle("fast");

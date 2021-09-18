@@ -4,7 +4,7 @@
 [
 
     {
-      "joyasid":0,
+      "joyaid":0,
       "producto": "Anillos",
       "stock": 100,
       "precio": 900,
@@ -13,14 +13,14 @@
       
     },
     {
-      "joyasid":1,
+      "joyaid":1,
       "producto": "Aros",
       "stock": 90,
       "precio": 800,
       "img": "arosFlores.jpg"
     },
   {
-        "joyasid":2,  
+        "joyaid":2,  
         "producto": "Cadenas",
         "stock": 80,
         "precio": 1000,
